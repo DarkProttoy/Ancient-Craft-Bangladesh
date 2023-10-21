@@ -12,7 +12,7 @@ body{
   
 }
 .background{
-    background: url(images1.png) no-repeat;
+    background: url(minecraft-shader-wallpaper-preview.jpg) no-repeat;
     background-position: center;
     background-size:cover ;
     height: 100vh;
@@ -100,7 +100,7 @@ body{
     width: 75%;
     height: 550px;
     margin-top: 20px;
-    background: url(backgroun3.jpg) no-repeat;
+    background: url(i) no-repeat;
     background-position: center;
     background-size:cover ;
     border-radius: 20px;
@@ -108,7 +108,7 @@ body{
     
     
 }
-.item{
+.item {
     position: absolute;
     top: 0;
     left: 0;
@@ -127,6 +127,7 @@ body{
 .item .logo{
     color: #fff;
     font-size: 30px;
+    width: 100%;
 
 }
 .text-item h2{
@@ -135,10 +136,10 @@ body{
 }
 .text-item p{
     font-size: 16px;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 .social-icon a i{
-    color: #fff;
+    color: lightblue;
     font-size: 24px;
     margin-left: 10px;
     cursor: pointer;
@@ -199,6 +200,7 @@ body{
     border-bottom: 2px solid#fff;
     margin: 30px 0;
     position: relative;
+    color: white;
 }
 .input-box input{
     width: 100%;
@@ -208,6 +210,7 @@ body{
     outline: none;
     font-size: 16px;
     padding-right: 28px;
+    color: white;
 
 
 }
@@ -252,14 +255,14 @@ body{
     text-decoration: underline;
 }
 .btn{
-    background: #fff;
+    background:white;
     width: 100%;
     height: 45px;
     outline: none;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background: #f72d7a;
+    background:black;
     font-size: 16px;
     color: #fff;
     box-shadow: rgba(0,0,0,0.4);
@@ -277,4 +280,9 @@ body{
 }
 .create-account p a:hover{
     text-decoration: underline;
+}
+.input-box-forget {
+transform: translateX(430px);
+transition: transform .6s ease;
+transition-delay: 0s;
 }
