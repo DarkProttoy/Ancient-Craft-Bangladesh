@@ -12,7 +12,7 @@ body{
   
 }
 .background{
-    background: url(minecraft-shader-wallpaper-preview.jpg) no-repeat;
+    background: url() no-repeat;
     background-position: center;
     background-size:cover ;
     height: 100vh;
