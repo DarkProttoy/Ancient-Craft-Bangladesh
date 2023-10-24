@@ -10,7 +10,7 @@ body{
     width: 100%;
 }
 .background{
-    background: url(https://raw.githubusercontent.com/DarkProttoy/Ancient-Craft-Bangladesh/07ec2409f5b334e48cc6deb683a42c12c46b99e0/background.png) no-repeat;
+    background: url(background.png) no-repeat;
     background-position: center;
     background-size:cover ;
     height: 100vh;
